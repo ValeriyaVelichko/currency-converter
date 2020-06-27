@@ -1,0 +1,45 @@
+h1, h3{
+    text-transform: uppercase;
+}
+.button{
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #464545;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    width: 15%;
+    min-width: 77px;
+    box-shadow: 3px 15px 19px -4px rgba(0,0,0,0.31);
+    transition: width 0.8s, background-color 1s, box-shadow 0.8s;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: #464545;
+    width: 20%;
+    box-shadow: 3px 15px 20px 3px rgba(0,0,0,0.29);
+}
+.contentWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10vh;
+}
+.controlls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5vh;
+}
+@media all and (min-width: 800px){
+    .controlls{
+        flex-direction: row;
+    }
+    .contentWrapper{
+        width: 40%;
+    }
+}

@@ -1,0 +1,24 @@
+h1{
+    text-transform: uppercase;
+}
+.button{
+    display: block;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+    background-color: #3f3a8a;
+    color: #ffffff;
+    text-decoration: none;
+}
+.listWrapper{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;   
+}
+@media all and (min-width: 800px){
+    .listWrapper{
+        width: 60%;  
+    }
+}
